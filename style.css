@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+
+    /* College texture background */
+    background: url('https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d') no-repeat center center/cover;
+}
+
+nav {
+    background: rgba(0,0,0,0.7);
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.content {
+    text-align: center;
+    padding: 50px;
+    background: rgba(0,0,0,0.5);
+    margin: 50px;
+    border-radius: 10px;
+}
+
+img {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background: yellow;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: orange;
+}
