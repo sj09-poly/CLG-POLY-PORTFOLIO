@@ -4,7 +4,7 @@ body {
     color: white;
 
     /* College texture background */
-    background: url('https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d') no-repeat center center/cover;
+    background: url('bg.jpg') no-repeat center center/cover;
 }
 
 nav {
